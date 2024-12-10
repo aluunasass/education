@@ -7,7 +7,7 @@ if lesha > sasha:
 elif lesha <= sasha:
     print('Лёша меньше или равно чем Саша')
 else:
-    print('я не знаю')
+    print('Я не знаю')
 
 friends=['Dasha', 'Zlata', 'Nikita']
 for friend in friends:
