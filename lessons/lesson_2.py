@@ -26,21 +26,21 @@ print(type(a_b))
 print(type(c))
 print(type(d))
 
-e = {
+family = {
     'Sasha': 11,
     'Nikita': 25,
     'Lesha': 17,
 }
-print(e)
-print(type(e))
-print(e['Lesha'])
-e['Lesha'] = 18
-print(e)
+print(family)
+print(type(family))
+print(family['Lesha'])
+family['Lesha'] = 18
+print(family)
 
-print(e['Sasha'] == e['Lesha'])
-print(e['Sasha'] > e['Lesha'])
-print(e['Sasha'] < e['Lesha'])
-print(type(e['Sasha'] < e['Lesha']))
+print(family['Sasha'] == family['Lesha'])
+print(family['Sasha'] > family['Lesha'])
+print(family['Sasha'] < family['Lesha'])
+print(type(family['Sasha'] < family['Lesha']))
 
 f = None
 print(bool(f))
