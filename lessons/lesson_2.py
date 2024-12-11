@@ -2,13 +2,13 @@ a = 5
 print(a)
 
 b = 25.7
-print(b)
+print(type(b))
 
 a_b = a+b
 print(a_b)
 
 c = 'Sasha'
-print(c)
+print(type(c))
 
 d = ['Lena', 'Vasya']
 print(d)
