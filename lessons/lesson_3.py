@@ -1,15 +1,15 @@
-sasha=19
-lesha=17
+sasha = 19
+lesha = 17
 print(sasha == lesha)
 
 if lesha > sasha:
-    print('Лёша больше чем Саша')
+    print("Лёша больше чем Саша")
 elif lesha <= sasha:
-    print('Лёша меньше или равно чем Саша')
+    print("Лёша меньше или равно чем Саша")
 else:
-    print('Я не знаю')
+    print("Я не знаю")
 
-friends=['Dasha', 'Zlata', 'Nikita']
+friends = ["Dasha", "Zlata", "Nikita"]
 for friend in friends:
     print(f"""
 ____________¶¶¶¶¶¶¶__¶¶__¶¶¶¶¶¶¶
@@ -26,8 +26,7 @@ _____________________¶¶
 """)
 
 
-
-for i in range(0,41,5):
+for i in range(0, 41, 5):
     print(i)
 
 i = 0
