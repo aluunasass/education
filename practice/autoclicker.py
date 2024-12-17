@@ -16,6 +16,7 @@ def speed_up():
 
 def speed_down():
     global speed
+
     speed *= 2
 
 
